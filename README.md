@@ -5,7 +5,9 @@ This project demonstrates a cloud-native application deployed on Kubernetes with
 
 ## 🧱 Architecture
 User Traffic → Kubernetes Service → Pods (Auto-scaled by HPA)
+
 ↑
+
 Metrics Server
 
 
