@@ -18,8 +18,9 @@ Metrics Server
 
 ## ⚙️ Setup Instructions
 
-### 1️⃣ Start Minikube
+### 
 ```bash
+1️⃣ Start Minikube
 minikube start
 
 2️⃣ Build Docker Image inside Minikube
@@ -45,17 +46,13 @@ http://127.0.0.1:8081
 while ($true) {
   Invoke-WebRequest http://127.0.0.1:8081/load | Out-Null
 }
-
+```
 📈 Auto-Scaling Demo
 Pods scale up when CPU > 50%
-
 Pods scale down automatically when load stops
 
 🧠 Key Learnings
 Docker image management in Minikube
-
 Kubernetes Services and networking
-
 Metrics Server configuration
-
 CPU-based auto-scaling using HPA
