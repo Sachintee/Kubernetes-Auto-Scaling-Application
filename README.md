@@ -18,15 +18,15 @@ Metrics Server
 
 
 📈 Auto-Scaling Demo
-Pods scale up when CPU > 50%
+- Pods scale up when CPU > 50%
 
-Pods scale down automatically when load stops
+- Pods scale down automatically when load stops
 
 🧠 Key Learnings
-Docker image management in Minikube
+- Docker image management in Minikube
 
-Kubernetes Services and networking
+- Kubernetes Services and networking
 
-Metrics Server configuration
+- Metrics Server configuration
 
-CPU-based auto-scaling using HPA
+- CPU-based auto-scaling using HPA
